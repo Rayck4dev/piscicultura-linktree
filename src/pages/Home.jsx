@@ -80,16 +80,16 @@ export default function Home() {
           rel="noopener noreferrer"
           className="w-full max-w-sm flex items-center justify-center gap-3 
                      bg-pink-600 text-white font-subtitle rounded-xl shadow-lg 
-                     p-4 mb-4 transition transform hover:scale-105 active:scale-95"
+                     p-4 transition transform hover:scale-105 active:scale-95"
         >
           <FaInstagram size={22} />
           Instagram
         </a>
       </div>
-      <footer className="text-sm text-gray-200 font-sans text-center mt-4">
+      <footer className="text-sm text-gray-200 font-sans text-center mb-12">
         {" "}
         © 2026 Piscicultura Magrão Alevinos{" "}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2 mb-10">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2 ">
           {" "}
           <a
             href="https://instagram.com/raycka_dev"
