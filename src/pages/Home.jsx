@@ -87,7 +87,7 @@ export default function Home() {
         </a>
       </div>
 
-      <footer className="relative z-10 text-sm text-gray-200 font-sans text-center py-6">
+      <footer className="relative z-10 text-sm text-gray-200 font-sans text-center py-6 mb-6">
         © 2026 Piscicultura Magrão Alevinos
         <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 text-center mt-2">
           <a
