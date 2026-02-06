@@ -13,7 +13,7 @@ export default function Home() {
     >
       <div className="absolute inset-0 bg-gradient-to-b from-blue-900/40 to-green-900/40"></div>
 
-      <div className="relative z-10 flex flex-col items-center justify-center flex-grow p-6">
+      <div className="relative z-10 flex flex-col items-center justify-center p-6 gap-1 flex-1">
         <img
           src="/logopisc.png"
           alt="Logo Piscicultura Magrão Alevinos"
@@ -27,7 +27,7 @@ export default function Home() {
         <p className="font-subtitle text-blue-950 font-semibold mb-8 text-center">
           Produtividade e Qualidade para a sua Piscicultura!
         </p>
-        
+
         <a
           href="/catalogo"
           className="w-full max-w-sm flex items-center justify-center gap-3 
@@ -86,15 +86,15 @@ export default function Home() {
           Instagram
         </a>
       </div>
-
-      <footer className="relative z-10 text-sm text-gray-200 font-sans text-center">
+      
+      <footer className="fixed bottom-2 w-full text-sm text-gray-200 font-sans text-center md:static">
         © 2026 Piscicultura Magrão Alevinos
-        <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 text-center mt-2 mb-8">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2">
           <a
             href="https://instagram.com/raycka_dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-200 hover:text-green-300 transition-colors duration-300 font-subtitle font-bold text-sm sm:text-base z-10"
+            className="flex items-center gap-2 text-gray-200 hover:text-green-300 transition-colors duration-300 font-subtitle font-bold text-sm sm:text-base"
           >
             <FaInstagram className="text-lg" /> Desenvolvido por{" "}
             <span className="underline">Raycka DevLab</span>
