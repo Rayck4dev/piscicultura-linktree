@@ -86,20 +86,22 @@ export default function Home() {
           Instagram
         </a>
       </div>
-      
-      <footer className="fixed bottom-2 w-full text-sm text-gray-200 font-sans text-center md:static">
-        © 2026 Piscicultura Magrão Alevinos
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2">
+      <footer className="text-sm text-gray-200 font-sans text-center mt-4">
+        {" "}
+        © 2026 Piscicultura Magrão Alevinos{" "}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2 mb-10">
+          {" "}
           <a
             href="https://instagram.com/raycka_dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-200 hover:text-green-300 transition-colors duration-300 font-subtitle font-bold text-sm sm:text-base"
+            className="flex items-center gap-2 text-gray-200 font-subtitle font-bold text-sm sm:text-base"
           >
+            {" "}
             <FaInstagram className="text-lg" /> Desenvolvido por{" "}
-            <span className="underline">Raycka DevLab</span>
-          </a>
-        </div>
+            <span className="underline">Raycka DevLab</span>{" "}
+          </a>{" "}
+        </div>{" "}
       </footer>
     </div>
   );
