@@ -1,4 +1,4 @@
-olá# 🐟 Piscicultura Magrão Alevinos
+🐟 Piscicultura Magrão Alevinos
 
 Bem-vindo ao projeto **Piscicultura Linktree**, uma aplicação web moderna para apresentar catálogo de peixes, contatos e informações da piscicultura de forma simples e intuitiva.  
 O objetivo é facilitar a comunicação com clientes e mostrar o catálogo atualizado de espécies disponíveis.
