@@ -44,10 +44,10 @@ const catalogo = [
   },
   {
     nome: "Jatuarana",
-    tamanho: "5 a 6 cm",
-    tipo: "video",
-    src: "/catalogo/jatuarana.mp4",
-    status: "disponivel",
+    tamanho: null,
+    tipo: null,
+    src: null,
+    status: "indisponivel",
     dias: null,
   },
   {
@@ -56,7 +56,7 @@ const catalogo = [
     tipo: null,
     src: null,
     status: "em_breve",
-    dias: null, // sem prazo definido
+    dias: null,
   },
   {
     nome: "Panga",
