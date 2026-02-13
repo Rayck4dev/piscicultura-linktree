@@ -5,6 +5,15 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
+import { ultimaAtualizacao, diasNovidade } from "../data/catalogo";
+
+function isNovidade() {
+  const hoje = new Date();
+  const atualizado = new Date(ultimaAtualizacao);
+  const diff = (hoje - atualizado) / (1000 * 60 * 60 * 24);
+  return diff <= diasNovidade;
+}
+
 export default function Home() {
   return (
     <div
@@ -30,12 +39,21 @@ export default function Home() {
 
         <a
           href="/catalogo"
-          className="w-full max-w-sm flex items-center justify-center gap-3 
+          className="relative w-full max-w-sm flex items-center justify-center gap-3 
                      bg-blue-600 text-white font-subtitle rounded-xl shadow-lg 
                      p-4 mb-4 transition transform hover:scale-105 active:scale-95"
         >
           <FaFish size={22} />
           Catálogo de Peixes
+          {isNovidade() && (
+            <span
+              className="absolute -top-2 -right-2 bg-red-600 text-white 
+                   text-xs sm:text-sm font-extrabold px-2 py-1 rounded-full shadow-lg 
+                   animate-bounce-scale"
+            >
+              Novidades
+            </span>
+          )}
         </a>
 
         <a
