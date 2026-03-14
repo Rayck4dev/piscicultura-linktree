@@ -2,7 +2,7 @@
 // video | img
 // und | milheiro
 
-export const ultimaAtualizacao = "2026-02-13";
+export const ultimaAtualizacao = "2026-03-14";
 export const diasNovidade = 20;
 
 const catalogo = [
@@ -43,7 +43,7 @@ const catalogo = [
     src: "/catalogo/panga.mp4",
     status: "disponivel",
     dias: null,
-    preco: 5.0,
+    preco: 3.0,
     tipoPreco: "und",
   },
   {
@@ -58,12 +58,12 @@ const catalogo = [
   },
   {
     nome: "Pintado",
-    tamanho: null,
-    tipo: null,
-    src: null,
-    status: "em_breve",
+    tamanho: "10 a 12 cm",
+    tipo: "video",
+    src: "/catalogo/pintado.mp4",
+    status: "disponivel",
     dias: null,
-    preco: null,
+    preco: 3.0,
     tipoPreco: null,
   },
   {
