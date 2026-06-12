@@ -95,8 +95,9 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-200 hover:text-green-300 transition-colors duration-300 font-subtitle font-bold text-sm sm:text-base"
           >
-            <FaInstagram className="text-lg" /> Desenvolvido por{" "}
-            <span className="underline">Raycka DevLab</span>
+            <p className="font-audiowide text-xs sm:text-sm lg:text-base">
+              © {new Date().getFullYear()} DevLab — All rights reserved.
+            </p>
           </a>
         </div>
       </footer>
