@@ -90,7 +90,7 @@ export default function Home() {
         © 2026 Piscicultura Magrão Alevinos
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2">
           <a
-            href="https://instagram.com/raycka_dev"
+            href="https://portfoliorayckacastro.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-200 hover:text-green-300 transition-colors duration-300 font-subtitle font-bold text-sm sm:text-base"
