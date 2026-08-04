@@ -90,13 +90,14 @@ export default function Home() {
         © 2026 Piscicultura Magrão Alevinos
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mt-2">
           <a
-            href="https://portfoliorayckacastro.netlify.app/"
+            href="https://www-websites.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-200 hover:text-green-300 transition-colors duration-300 font-subtitle font-bold text-sm sm:text-base"
           >
             <p className="font-audiowide text-xs sm:text-sm lg:text-base">
-              © {new Date().getFullYear()} DevLab — All rights reserved.
+              © {new Date().getFullYear()} WWW Websites. Todos os direitos
+              reservados.
             </p>
           </a>
         </div>

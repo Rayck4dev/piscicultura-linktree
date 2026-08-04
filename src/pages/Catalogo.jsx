@@ -68,13 +68,13 @@ export default function Catalogo() {
         © 2026 Piscicultura Magrão Alevinos
         <div className="max-w-xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 text-center mt-2">
           <a
-            href="https://portfoliorayckacastro.netlify.app/"
+            href="https://www-websites.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-black font-subtitle font-bold text-md sm:text-base z-10"
           >
             <FaInstagram className="text-lg" /> Desenvolvido por{" "}
-            <span className="underline">Raycka DevLab</span>
+            <span className="underline">WWW Websites</span>
           </a>
         </div>
       </footer>
